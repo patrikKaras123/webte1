@@ -4,7 +4,7 @@ export const THEMES = {
   NATURE: 'NATURE',
 };
 
-export const cards = ["../Allflags/slovakia.jpg", "../Allflags/micronesia.jpg", "../Allflags/southKorea.jpg"];
+export const cards = ["../allFlags/slovakia.jpg", "../allFlags/micronesia.jpg", "../allFlags/southKorea.jpg"];
 export const description = ["White. Blue. Red. Coast-of-arms... Slovenia?", "What is this???", "Asian country as the rest. Still the same..."]
 export const headings = ["Slovakia", "Micronesia", "South Korea"]
 
