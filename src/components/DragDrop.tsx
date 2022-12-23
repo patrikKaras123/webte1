@@ -237,6 +237,7 @@ const DragDrop: FC<DragDropProps> = (props) => {
     // Adjust sensibility, because it can depend of usage (& devices)
     const sensibility = 350;
     if (acceleration >= sensibility) {
+      setNext({ ...next, next: false });
       resetHandler();
     };
   }
