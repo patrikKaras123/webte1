@@ -324,7 +324,7 @@ const DragDrop: FC<DragDropProps> = (props) => {
             variant="filled"
             value={name}
             onChange={flagNameHandler}
-            inputProps={{ style: { color: "white", backgroundColor: "gray" } }}
+            inputProps={{ style: { color: "white", backgroundColor: "gray", borderRadius: 5, marginBottom: 5 } }}
           />
         </Grid>
       </main>
