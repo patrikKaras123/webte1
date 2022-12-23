@@ -1,0 +1,41 @@
+name: Build and Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    name: Bulid
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+      - name: Install dependencies
+        run: npm ci
+      - name: Build dependencies
+        run: npm run build
+      - name: Archive production artifact
+        uses: actions/upload-artifact@main
+        with:
+          name: build
+          path: build
+
+ deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download artifact
+        uses: actions/download-artifact@main
+        with:
+          name: build
+          path: build
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: andrejvysny.sk
+          username: flaggame.andrejvysny.sk
+          password: Rw8?x&42wD
+          local-dir: ./build/
