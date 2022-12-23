@@ -160,12 +160,13 @@ const DragDrop: FC<DragDropProps> = (props) => {
     ) {
       for (let i = 0; i < 2; i++) {
         if (updatedColumns[1].items[i].id > updatedColumns[1].items[i + 1].id) {
+          setNext({ ...next, next: false });
           setSolution(solutionHandler(updatedColumns[1]));
           setHint("Not Correct order");
           return false
         }
       }
-      setSolution("");
+      setSolution("Flags are in correct order and now guess flag name");
       setNext({ ...next, next: true });
       if (next?.name) {
         setHint(`Move everything to Flag section`);
@@ -177,6 +178,7 @@ const DragDrop: FC<DragDropProps> = (props) => {
         return false;
       }
     } else {
+      setNext({ ...next, next: false });
       setHint(findHint(updatedColumns));
     }
     return false
@@ -313,7 +315,7 @@ const DragDrop: FC<DragDropProps> = (props) => {
             }}
           >
             <Grid item sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
-              <DropAndDrag columns={columns} onDragEnd={onDragEnd} />
+              <DropAndDrag next={next.next} columns={columns} onDragEnd={onDragEnd} />
             </Grid>
           </Grid>
         </Container>
