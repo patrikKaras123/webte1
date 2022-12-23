@@ -5,11 +5,12 @@ import { Photo } from '../types/Photo'
 
 interface DropAndDragProps {
   columns: columns[],
-  onDragEnd: (result: any, columns: columns[]) => void
+  onDragEnd: (result: any, columns: columns[]) => void,
+  next: boolean
 }
 
 const DropAndDrag: FC<DropAndDragProps> = (props) => {
-  const {columns, onDragEnd} = props
+  const {columns, onDragEnd, next} = props
 
   return (
     <DragDropContext
@@ -48,9 +49,9 @@ const DropAndDrag: FC<DropAndDragProps> = (props) => {
                       {...provided.droppableProps}
                       ref={provided.innerRef}
                       style={{
-                        background: snapshot.isDraggingOver
-                          ? 'lightblue'
-                          : 'lightgrey',
+                        background: column.id === "2" && next
+                          ? 'green'
+                          : 'white',
                         padding: 4,
                         width: 235,
                         minHeight: 300,
