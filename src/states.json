@@ -1,0 +1,102 @@
+[
+  {
+    "difficulty": 1,
+    "coordinates": [51.408053, 10.372131],
+    "tag": "Germany"
+  },
+  {
+    "difficulty": 2,
+    "coordinates": [41.134157, 20.034230],
+    "tag": "Albania"
+  },
+  {
+    "difficulty": 2,
+    "coordinates": [-23.213110, 133.726143],
+    "tag": "Australia"
+  },
+  {
+    "difficulty": 2,
+    "coordinates": [53.498830, 27.926566],
+    "tag": "Belarus"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [35.446974, 103.681592],
+    "tag": "China"
+  },
+  {
+    "difficulty": 3,
+    "coordinates": [-17.602710, 177.955318],
+    "tag": "Fiji"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [-7.554478, -55.926257],
+    "tag": "Brasil"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [55.336626, -2.591227],
+    "tag": "Great Britain"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [37.219158, 138.443596],
+    "tag": "Japan"
+  },
+  {
+    "difficulty": 3,
+    "coordinates": [-20.550068, 46.025642],
+    "tag": "Madagascar"
+  },
+  {
+    "difficulty": 3,
+    "coordinates": [-0.620882, 73.096567],
+    "tag": "Maldives"
+  },
+  {
+    "difficulty": 3,
+    "coordinates": [7.558589, 150.328147],
+    "tag": "Micronesia"
+  },
+  {
+    "difficulty": 2,
+    "coordinates": [-41.807762, 172.407408],
+    "tag": "New Zealand"
+  },
+  {
+    "difficulty": 2,
+    "coordinates": [48.911223, 19.156655],
+    "tag": "Slovakia"
+  },
+  {
+    "difficulty": 2,
+    "coordinates": [36.852529, 127.768455],
+    "tag": "South Korea"
+  },
+  {
+    "difficulty": 3,
+    "coordinates": [7.900596, 80.640231],
+    "tag": "Sri Lanka"
+  },
+  {
+    "difficulty": 3,
+    "coordinates": [16.016765, 101.151497],
+    "tag": "Thailand"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [49.512919, 31.471717],
+    "tag": "Ukraine"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [41.947046, -102.634204],
+    "tag": "USA"
+  },
+  {
+    "difficulty": 1,
+    "coordinates": [49.847351, 15.046861],
+    "tag": "Czech Republic" 
+  }
+]

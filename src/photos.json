@@ -1,0 +1,379 @@
+[
+  {
+    "id": 1,
+    "path": "../flags/Albania/albaniaUp.png",
+    "tag": "Albania",
+    "difficulty": 2
+  },
+  {
+    "id": 2,
+    "path": "../flags/Albania/albaniaMid.png",
+    "tag": "Albania",
+    "difficulty": 2
+  },
+  {
+    "id": 3,
+    "path": "../flags/Albania/albaniaDown.png",
+    "tag": "Albania",
+    "difficulty": 2
+  },
+  {
+    "id": 4,
+    "path": "../flags/Australia/australiaUp.png",
+    "tag": "Australia",
+    "difficulty": 2
+  },
+  {
+    "id": 5,
+    "path": "../flags/Australia/australiaMid.png",
+    "tag": "Australia",
+    "difficulty": 2
+  },
+  {
+    "id": 6,
+    "path": "../flags/Australia/australiaDown.png",
+    "tag": "Australia",
+    "difficulty": 2
+  },
+  {
+    "id": 7,
+    "path": "../flags/Czech/czechUp.png",
+    "tag": "Czech Republic",
+    "difficulty": 1
+  },
+  {
+    "id": 8,
+    "path": "../flags/Czech/czechMid.png",
+    "tag": "Czech Republic",
+    "difficulty": 1
+  },
+  {
+    "id": 9,
+    "path": "../flags/Czech/czechDown.png",
+    "tag": "Czech Republic",
+    "difficulty": 1
+  },
+  {
+    "id": 10,
+    "path": "../flags/Belarus/belarusUp.png",
+    "tag": "Belarus",
+    "difficulty": 2
+  },
+  {
+    "id": 11,
+    "path": "../flags/Belarus/belarusMid.png",
+    "tag": "Belarus",
+    "difficulty": 2
+  },
+  {
+    "id": 12,
+    "path": "../flags/Belarus/belarusDown.png",
+    "tag": "Belarus",
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "path": "../flags/Bulgaria/bulgariaUp.png",
+    "tag": "Bulgaria",
+    "difficulty": 1
+  },
+  {
+    "id": 14,
+    "path": "../flags/Bulgaria/bulgariaMid.png",
+    "tag": "Bulgaria",
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "path": "../flags/Bulgaria/bulgariaDown.png",
+    "tag": "Bulgaria",
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "path": "../flags/China/chinaUp.png",
+    "tag": "China",
+    "difficulty": 1
+  },
+  {
+    "id": 17,
+    "path": "../flags/China/chinaMid.png",
+    "tag": "China",
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "path": "../flags/China/chinaDown.png",
+    "tag": "China",
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "path": "../flags/Fiji/fijiUp.png",
+    "tag": "Fiji",
+    "difficulty": 3
+  },
+  {
+    "id": 20,
+    "path": "../flags/Fiji/fijiMid.png",
+    "tag": "Fiji",
+    "difficulty": 3
+  },
+  {
+    "id": 21,
+    "path": "../flags/Fiji/fijiDown.png",
+    "tag": "Fiji",
+    "difficulty": 3
+  },
+  {
+    "id": 22,
+    "path": "../flags/Brasil/brasilUp.png",
+    "tag": "Brasil",
+    "difficulty": 1
+  },
+  {
+    "id": 23,
+    "path": "../flags/Brasil/brasilMid.png",
+    "tag": "Brasil",
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "path": "../flags/Brasil/brasilDown.png",
+    "tag": "Brasil",
+    "difficulty": 1
+  },
+  {
+    "id": 25,
+    "path": "../flags/Germany/germanyUp.png",
+    "tag": "Germany",
+    "difficulty": 1
+  },
+  {
+    "id": 26,
+    "path": "../flags/Germany/germanyMid.png",
+    "tag": "Germany",
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "path": "../flags/Germany/germanyDown.png",
+    "tag": "Germany",
+    "difficulty": 1
+  },
+  {
+    "id": 28,
+    "path": "../flags/GreatBritain/ukUp.png",
+    "tag": "Great Britain",
+    "difficulty": 1
+  },
+  {
+    "id": 29,
+    "path": "../flags/GreatBritain/ukMid.png",
+    "tag": "Great Britain",
+    "difficulty": 1
+  },
+  {
+    "id": 30,
+    "path": "../flags/GreatBritain/ukDown.png",
+    "tag": "Great Britain",
+    "difficulty": 1
+  },
+  {
+    "id": 31,
+    "path": "../flags/Japan/japanUp.png",
+    "tag": "Japan",
+    "difficulty": 1
+  },
+  {
+    "id": 32,
+    "path": "../flags/Japan/japanMid.png",
+    "tag": "Japan",
+    "difficulty": 1
+  },
+  {
+    "id": 33,
+    "path": "../flags/Japan/japanDown.png",
+    "tag": "Japan",
+    "difficulty": 1
+  },
+  {
+    "id": 34,
+    "path": "../flags/Madagascar/madagascarUp.png",
+    "tag": "Madagascar",
+    "difficulty": 3
+  },
+  {
+    "id": 35,
+    "path": "../flags/Madagascar/madagascarMid.png",
+    "tag": "Madagascar",
+    "difficulty": 3
+  },
+  {
+    "id": 36,    
+    "path": "../flags/Madagascar/madagascarDown.png",
+    "tag": "Madagascar",
+    "difficulty": 3
+  },
+  {
+    "id": 37,
+    "path": "../flags/Maldives/MaldivesUp.png",
+    "tag": "Maldives",
+    "difficulty": 3
+  },
+  {
+    "id": 38,
+    "path": "../flags/Maldives/MaldivesMid.png",
+    "tag": "Maldives",
+    "difficulty": 3
+  },
+  {
+    "id": 39,
+    "path": "../flags/Maldives/MaldivesDown.png",
+    "tag": "Maldives",
+    "difficulty": 3
+  },
+  {
+    "id": 40,
+    "path": "../flags/Micronesia/micronesiaUp.png",
+    "tag": "Micronesia",
+    "difficulty": 3
+  },
+  {
+    "id": 41,
+    "path": "../flags/Micronesia/micronesiaMid.png",
+    "tag": "Micronesia",
+    "difficulty": 3
+  },
+  {
+    "id": 42,
+    "path": "../flags/Micronesia/micronesiaDown.png",
+    "tag": "Micronesia",
+    "difficulty": 3
+  },
+  {
+    "id": 43,
+    "path": "../flags/NewZealand/newZealandUp.png",
+    "tag": "New Zealand",
+    "difficulty": 2
+  },
+  {
+    "id": 44,
+    "path": "../flags/NewZealand/newZealandMid.png",
+    "tag": "New Zealand",
+    "difficulty": 2
+  },
+  {
+    "id": 45,
+    "path": "../flags/NewZealand/newZealandDown.png",
+    "tag": "New Zealand",
+    "difficulty": 2
+  },
+  {
+    "id": 46,
+    "path": "../flags/Slovakia/slovakiaUp.png",
+    "tag": "Slovakia",
+    "difficulty": 2
+  },
+  {
+    "id": 47,
+    "path": "../flags/Slovakia/slovakiaMid.png",
+    "tag": "Slovakia",
+    "difficulty": 2
+  },
+  {
+    "id": 48,
+    "path": "../flags/Slovakia/slovakiaDown.png",
+    "tag": "Slovakia"
+  },
+  {
+    "id": 49,
+    "path": "../flags/SouthKorea/southKoreaUp.png",
+    "tag": "South Korea",
+    "difficulty": 2
+  },
+  {
+    "id": 50,
+    "path": "../flags/SouthKorea/southKoreaMid.png",
+    "tag": "South Korea",
+    "difficulty": 2
+  },
+  {
+    "id": 51,
+    "path": "../flags/SouthKorea/southKoreaDown.png",
+    "tag": "South Korea",
+    "difficulty": 2
+  },
+  {
+    "id": 52,
+    "path": "../flags/SriLanka/sriLankaUp.png",
+    "tag": "Sri Lanka",
+    "difficulty": 3
+  },
+  {
+    "id": 53,
+    "path": "../flags/SriLanka/sriLankaMid.png",
+    "tag": "Sri Lanka",
+    "difficulty": 3
+  },
+  {
+    "id": 54,
+    "path": "../flags/SriLanka/sriLankaDown.png",
+    "tag": "Sri Lanka",
+    "difficulty": 3
+  },
+  {
+    "id": 55,
+    "path": "../flags/Thailand/thailandUp.png",
+    "tag": "Thailand",
+    "difficulty": 3
+  },
+  {
+    "id": 56,
+    "path": "../flags/Thailand/thailandMid.png",
+    "tag": "Thailand",
+    "difficulty": 3
+  },
+  {
+    "id": 57,
+    "path": "../flags/Thailand/thailandDown.png",
+    "tag": "Thailand",
+    "difficulty": 3
+  },
+  {
+    "id": 58,
+    "path": "../flags/Ukraine/ukraineUp.png",
+    "tag": "Ukraine",
+    "difficulty": 1
+  },
+  {
+    "id": 59,
+    "path": "../flags/Ukraine/ukraineMid.png",
+    "tag": "Ukraine",
+    "difficulty": 1
+  },
+  {
+    "id": 60,
+    "path": "../flags/Ukraine/ukraineDown.png",
+    "tag": "Ukraine",
+    "difficulty": 1
+  },
+  {
+    "id": 61,
+    "path": "../flags/USA/USAUp.png",
+    "tag": "USA",
+    "difficulty": 1
+  },
+  {
+    "id": 62,
+    "path": "../flags/USA/USAMid.png",
+    "tag": "USA",
+    "difficulty": 1
+  },
+  {
+    "id": 63,
+    "path": "../flags/USA/USADown.png",
+    "tag": "USA",
+    "difficulty": 1
+  }
+]
