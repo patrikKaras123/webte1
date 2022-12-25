@@ -140,6 +140,9 @@ const DragDrop: FC<DragDropProps> = (props) => {
     setName(e.target.value);
     const equalNames = (columns[0].items.length > 0 ? e.target.value === columns[0].items[0].tag : false)
       || (columns[1].items.length > 0 ? e.target.value === columns[1].items[0].tag : false);
+    if(!equalNames) {
+      setNext({ ...next, name: false });
+    }
     if (!next?.next && equalNames) {
       setNext({ ...next, name: true });
     }
@@ -327,7 +330,7 @@ const DragDrop: FC<DragDropProps> = (props) => {
             variant="filled"
             value={name}
             onChange={flagNameHandler}
-            inputProps={{ style: { color: "white", backgroundColor: "gray", borderRadius: 5, marginBottom: 5 } }}
+            inputProps={{ style: { color: "white", backgroundColor: next.name ? "green" : "red", borderRadius: 5, marginBottom: 5 } }}
           />
         </Grid>
       </main>
