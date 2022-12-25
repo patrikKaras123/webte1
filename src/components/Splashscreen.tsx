@@ -9,6 +9,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { GAME } from '../constants';
 import DisplayText from '../utils/DisplayText';
+import { useNavigate } from 'react-router-dom';
 
 
 interface SplashscreenProps {
@@ -20,6 +21,7 @@ const headings = ["Easy Level", "Medium Level", "Hard Level"]
 
 const Splashscreen: React.FC<SplashscreenProps> = (props: any) => {
   const { setDifficulty } = props;
+  const navigate = useNavigate();
 
   return (
     <>
@@ -32,6 +34,21 @@ const Splashscreen: React.FC<SplashscreenProps> = (props: any) => {
           }}
         >
           <DisplayText game={false} text={GAME} />
+          <Box style={{               
+            display: 'flex',
+            justifyContent: 'center' 
+          }}>
+            <Button 
+              variant="contained"
+              style={{
+                fontWeight: 'bold',
+                margin: 10
+              }}
+              onClick={() => navigate("/")}
+              >
+                Welcome Page
+            </Button>
+          </Box>
         </Box>
         <Container sx={{ py: 3 }} maxWidth="md">
           {/* End hero unit */}
