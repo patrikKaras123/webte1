@@ -58,7 +58,7 @@ export default function WelcomeScreen() {
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Welcome to the Flag Game. Put all the pieces together of flags and advance to the next
-              levels and reach your the best private time to complete all the levels.
+              levels.
             </Typography>
             <Stack
               sx={{ pt: 2 }}
